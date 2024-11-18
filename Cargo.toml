@@ -52,7 +52,7 @@ log = { version = "0.4", default-features = false }
 uncased = { version = "0.9.7", default-features = false }
 embedded-hal-async = { version = "1", default-features = false }
 embedded-svc = { version = "0.28", default-features = false }
-esp-idf-hal = { version = "0.44", default-features = false }
+esp-idf-hal = { git = "https://github.com/esp-rs/esp-idf-hal.git", rev = "97c01ef814d75f43d9155a9876ef440a7f5a3cc0" }
 embassy-time-driver = { version = "0.1", optional = true, features = ["tick-hz-1_000_000"] }
 embassy-futures = "0.1"
 futures-io = { version = "0.3", optional = true }
